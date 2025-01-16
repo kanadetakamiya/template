@@ -1,7 +1,7 @@
 const canvas = document.getElementById("main");
 const context = canvas.getContext("2d");
 
-//vẽ background
+//vẽ background (60 x 40)
 function drawBackground() {
   context.fillStyle = "black";
   context.fillRect(0, 0, 600, 400);
